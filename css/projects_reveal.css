@@ -1,0 +1,38 @@
+.reveal-modal, .reveal-modal p{
+    font-family: 'Open Sans', sans-serif    
+}
+.reveal-modal p{
+    margin-bottom: 5px;
+}
+.reveal-modal a{
+    font-weight: 500;
+}
+
+.detail-title{
+    color: #FF6600;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+}
+.detail-intro{
+    color: #420300;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.reveal-detail{
+    font-size: 14px;
+}
+.detail-em-text{
+    font-weight: 600;
+}
+.project-table-border {
+    background-image: url("../img/project-table-border.png");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    height: 1px;
+    width: 800px;
+    margin: 10px 0;
+}

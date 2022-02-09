@@ -1,0 +1,276 @@
+Understanding topic duration in Twitter learning communities using data mining
+O Arslan, W Xing, FA Inan, H Du
+Journal of Computer Assisted Learning
+		2021
+Curriculum design for social, cognitive and emotional engagement in Knowledge Building
+G Zhu, P Raman, W Xing, J Slotta
+International Journal of Educational Technology in Higher Education 18 (1), 1-19
+	2021
+Automatic text generation using deep learning: providing large-scale support for online learning communities
+H Du, W Xing, B Pei
+Interactive Learning Environments, 1-16
+		2021
+Massive open online courses for professional certificate programs? Perspectives on professional learners’ longitudinal participation patterns
+H Tang, W Xing
+Australasian Journal of Educational Technology, 136-147
+	2021
+Designing a Transferable Predictive Model for Online Learning Using a Bayesian Updating Approach
+W Xing, D Du, A Bakhshi, KC Chiu, H Du
+IEEE Transactions on Learning Technologies 14 (4), 474-485
+		2021
+An Interpretable Pipeline for Identifying At-Risk Students
+B Pei, W Xing
+Journal of Educational Computing Research, 07356331211038168
+		2021
+A Debugging Learning Trajectory for Text-Based Programming Learners
+H Du, W Xing, Y Zhang
+Proceedings of the 26th ACM Conference on Innovation and Technology in Computer Science Education V. 2
+		2021
+Using Fair AI with Debiased Network Embeddings to Support Help Seeking in an Online Math Learning Platform
+C Li, W Xing, W Leite
+International Conference on Artificial Intelligence in Education, 245-250
+		2021
+Supporting Youth With Autism Learning Social Competence: A Comparison of Game-and Nongame-Based Activities in 3D Virtual World
+X Wang, W Xing
+Journal of Educational Computing Research, 07356331211022003
+	2021
+Understanding students’ effective use of data in the age of big data in higher education
+W Xing, X Wang
+Behaviour & Information Technology, 1-18
+		2021
+Academic development of multimodal learning analytics: a bibliometric analysis
+B Pei, W Xing, M Wang
+Interactive Learning Environments, 1-19
+	2021
+Quantifying the Influence of Achievement Emotions for Student Learning in MOOCs
+B Liu, W Xing, Y Zeng, Y Wu
+Journal of Educational Computing Research 59 (3), 429-452
+	2021
+Yet Another Predictive Model? Fair Predictions of Students’ Learning Outcomes in an Online Math Learning Platform
+C Li, W Xing, W Leite
+LAK21: 11th International Learning Analytics and Knowledge Conference, 572-578
+		2021
+Large-scale path modeling of remixing to computational thinking
+W Xing
+Interactive Learning Environments 29 (3), 414-427
+	2021
+Automatic assessment of students’ engineering design performance using a Bayesian network model
+W Xing, C Li, G Chen, X Huang, J Chao, J Massicotte, C Xie
+Journal of Educational Computing Research 59 (2), 230-256
+	2021
+Reciprocal Relations Between Students’ Evaluation, Reformulation Behaviors, and Engineering Design Performance Over Time
+G Zhu, Y Zeng, W Xing, H Du, C Xie
+Journal of Science Education and Technology, 1-13
+		2021
+Exploring behavioural differences between certificate achievers and explorers in MOOCs
+B Liu, Y Wu, W Xing, G Cheng, S Guo
+Asia Pacific Journal of Education, 1-13
+	2021
+Natural Language Generation Using Deep Learning to Support MOOC Learners
+C Li, W Xing
+International Journal of Artificial Intelligence in Education, 1-29
+	2021
+Examining temporal dynamics of self-regulated learning behaviors in STEM learning: A network approach
+S Li, H Du, W Xing, J Zheng, G Chen, C Xie
+Computers & Education 158, 103987
+	2020
+Identifying patterns in students' scientific argumentation: content analysis through text mining using Latent Dirichlet Allocation.
+W Xing, HS Lee, A Shibani
+Educational Technology Research & Development 68 (5)
+	2020
+Longitudinal clustering of students’ self-regulated learning behaviors in engineering design
+S Li, G Chen, W Xing, J Zheng, C Xie
+Computers & Education 153, 103899
+	2020
+The role of self-regulated learning on science and design knowledge gains in engineering projects
+J Zheng, W Xing, X Huang, S Li, G Chen, C Xie
+Interactive Learning Environments, 1-13
+	2020
+VRASP: A Virtual Reality Environment for Learning Answer Set Programming
+VT Nguyen, Y Zhang, K Jung, W Xing, T Dang
+International Symposium on Practical Aspects of Declarative Languages, 82-91
+	2020
+Understanding Science Learning Through Writings on Engineering Design
+X Huang, W Xing, H Zhao, J Chao, C Schimpf, G Chen, C Xie
+International Society of the Learning Sciences (ISLS)
+		2020
+Profiling self-regulation behaviors in STEM learning of engineering design
+J Zheng, W Xing, G Zhu, G Chen, H Zhao, C Xie
+Computers & Education 143, 103669
+	2020
+Using automatic image processing to analyze visual artifacts created by students in scientific argumentation
+B Pei, W Xing, HS Lee
+British Journal of Educational Technology 50 (6), 3391-3404
+	2019
+Using learning analytics to support students’ engineering design: the angle of prediction
+W Xing, B Pei, S Li, G Chen, C Xie
+Interactive Learning Environments, 1-18
+	2019
+Beyond positive and negative emotions: Looking into the role of achievement emotions in discussion forums of MOOCs
+W Xing, H Tang, B Pei
+The Internet and Higher Education 43, 100690
+	2019
+Exploring emotional and cognitive dynamics of knowledge building in grades 1 and 2
+G Zhu, W Xing, S Costa, M Scardamalia, B Pei
+User Modeling and User-Adapted Interaction 29 (4), 789-820
+	2019
+The effects of transformative and non-transformative discourse on individual performance in collaborative-inquiry learning
+W Xing, V Popov, G Zhu, P Horwitz, C McIntyre
+Computers in Human Behavior 98, 267-276
+	2019
+Time really matters: Understanding the temporal dimension of online learning using educational data mining
+H Tang, W Xing, B Pei
+Journal of Educational Computing Research 57 (5), 1326-1347
+	2019
+Twitter vs news: Concern analysis of the 2018 california wildfire event
+H Du, L Nguyen, Z Yang, H Abu-Gellban, X Zhou, W Xing, G Cao, F Jin
+2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC …
+	2019
+Examining sequential patterns of self-and socially shared regulation of STEM learning in a CSCL environment
+J Zheng, W Xing, G Zhu
+Computers & Education 136, 34-48
+	2019
+Understanding Elementary Students’ Use of Digital Textbooks on Mobile Devices: A Structural Equation Modeling Approach
+X Wang, W Xing
+Journal of Educational Computing Research 57 (3), 755-776
+	2019
+Dropout prediction in MOOCs: Using deep learning for personalized intervention
+W Xing, D Du
+Journal of Educational Computing Research 57 (3), 547-570
+	2019
+Uncovering the sequential patterns in transformative and non-transformative discourse during collaborative inquiry learning
+G Zhu, W Xing, V Popov
+The Internet and Higher Education 41, 51-61
+	2019
+Exploring the influences of MOOC design features on student performance and persistence
+W Xing
+Distance Education 40 (1), 98-113
+	2019
+The Exploration of Automated Image Processing Techniques in the Study of Scientific Argumentation
+B Pei, H Zhao, W Xing, HS Lee
+Cognitive Computing in Technology-Enhanced Learning, 175-190
+	2019
+Exploring the relationship between online discourse and commitment in Twitter professional learning communities
+W Xing, F Gao
+Computers & Education 126, 388-398
+	2018
+The effect of sustained vs. faded scaffolding on students’ argumentation in ill-structured problem solving
+AA Tawfik, V Law, X Ge, W Xing, K Kim
+Computers in Human Behavior 87, 436-449
+	2018
+Quantifying the effect of informational support on membership retention in online communities through large-scale data analytics
+W Xing, S Goggins, J Introne
+Computers in Human Behavior 86, 227-234
+	2018
+Exploring the temporal dimension of forum participation in MOOCs
+H Tang, W Xing, B Pei
+Distance Education 39 (3), 353-372
+	2018
+Autistic youth in 3D game‐based collaborative virtual learning: Associating avatar interaction patterns with embodied social presence
+X Wang, W Xing, JM Laffey
+British Journal of Educational Technology 49 (4), 742-760
+	2018
+The influence of students’ transformative and non-transformative contributions on their problem solving in collaborative inquiry learning
+V Popov, W Xing, G Zhu, P Horwitz, C McIntyre
+International Society of the Learning Sciences, Inc.[ISLS].
+	2018
+Exploring the influence of parental involvement and socioeconomic status on teen digital citizenship: A path modeling approach
+X Wang, W Xing
+Journal of Educational Technology & Society 21 (1), 186-199
+	2018
+Fostering verbal and non-verbal social interactions in a 3D collaborative virtual learning environment: a case study of youth with Autism Spectrum Disorders learning social …
+X Wang, J Laffey, W Xing, K Galyen, J Stichter
+Educational Technology Research and Development 65 (4), 1015-1039
+	2017
+EXPLORING THE COLLECTIVE KNOWLEDGE CURATION PROCESS OF ONLINE HEALTH COMMUNITIES _ A Dissertation presented to
+W Xing
+University of Missouri-Columbia
+		2016
+Temporal predication of dropouts in MOOCs: Reaching the low hanging fruit through stacking generalization
+W Xing, X Chen, J Stein, M Marcinkowski
+Computers in human behavior 58, 119-129
+	2016
+Building models explaining student participation behavior in asynchronous online discussion
+S Goggins, W Xing
+Computers & Education 94, 241-251
+	2016
+Developing a research agenda for human-centered data science
+C Aragon, C Hutto, A Echenique, B Fiore-Gartland, Y Huang, J Kim, ...
+Proceedings of the 19th ACM Conference on Computer Supported Cooperative …
+	2016
+Exploring embodied social presence of youth with Autism in 3D collaborative virtual learning environment: A case study
+X Wang, J Laffey, W Xing, Y Ma, J Stichter
+Computers in Human Behavior 55, 310-321
+	2016
+Identifying students' mechanistic explanations in textual responses to science questions with association rule mining
+Y Guo, W Xing, HS Lee
+2015 IEEE International Conference on Data Mining Workshop (ICDMW), 264-268
+	2015
+Participation-based student final performance prediction model through interpretable Genetic Programming: Integrating learning analytics, educational data mining and theory
+W Xing, R Guo, E Petakovic, S Goggins
+Computers in Human Behavior 47, 168-181
+	2015
+Group learning assessment: Developing a theory-informed analytics
+W Xing, R Wadholm, E Petakovic, S Goggins
+Journal of Educational Technology & Society 18 (2), 110-128
+	2015
+" Twitter Archeology" of learning analytics and knowledge conferences
+B Chen, X Chen, W Xing
+Proceedings of the Fifth International Conference on learning analytics and …
+	2015
+Learning analytics in outer space: a Hidden Naïve Bayes model for automatic student off-task behavior detection
+W Xing, S Goggins
+Proceedings of the Fifth International Conference on learning analytics and …
+	2015
+Student assessment in small groups: A spectral clustering model
+W Xing, SP Goggins
+iConference 2015 Proceedings
+	2015
+Modeling performance in asynchronous CSCL: an exploration of social ability, collective efficacy and social interaction
+W Xing, SM Kim, S Goggins
+International Society of the Learning Sciences, Inc.[ISLS].
+	2015
+Learning Analytics at" Small" Scale: Exploring a Complexity-Grounded Model for Assessment Automation.
+SP Goggins, W Xing, X Chen, B Chen, B Wadholm
+J. Univers. Comput. Sci. 21 (1), 66-92
+	2015
+Google analytics based temporal-geospatial analysis for web management: A case study of a K-12 online resource website
+W Xing, R Guo, G Fitzgerald, C Xu
+International Journal of Information Science and Management (IJISM) 13 (1)
+	2014
+Ontology construction and mathematical modeling for the LAS engines
+W Xing, Y Wu, X Ma
+Journal of East China Normal University (Natural Science) 6, 126-139
+	2014
+Assessment Intelligence in Small Group Learning.
+W Xing, Y Wu
+International Association for Development of the Information Society
+		2014
+Instructional activities in a discussion board forum of an e-leaning management system
+Y Ma, C Friel, W Xing
+International Conference on Human-Computer Interaction, 112-116
+	2014
+Google analytics spatial data visualization: Thinking outside of the box
+W Xing, R Guo, B Richardson, T Kochtanek
+International Conference on Human Interface and the Management of …
+	2014
+Decision Support Based on Time-Series Analytics: A Cluster Methodology
+W Xing, R Guo, N Lowrance, T Kochtanek
+International Conference on Human Interface and the Management of …
+	2014
+Construction of learning analytics system
+MA Xiao-ling, X Wan-li, F Xiang, WU Yong-he
+华东师范大学学报 (自然科学版), 1-19, 39
+	2014
+Learning analytics in CSCL with a focus on assessment: an exploratory study of activity theory-informed cluster analysis
+W Xing, B Wadholm, S Goggins
+Proceedings of the fourth international conference on learning analytics and …
+	2014
+Automated CSCL Group Assessment: Activity Theory based Computational Method.
+W Xing, SP Goggins
+LAK Workshops
+		2014
+Factors and cues impacting user information selection and processing performance in kiosk touch screen interfaces
+Y Ma, W Xing, C Friel
+International Conference on Human-Computer Interaction, 56-60
+	2013

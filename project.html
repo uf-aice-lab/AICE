@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>AICE Lab</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/projects_reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous"> 
+    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head> 
+
+<body id="home">
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo_alt.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+						<li class="scroll"><a href="#about">About</a></li>
+                        <li class="scroll"><a href="team.html">Team</a></li>
+                        <li class="scroll"><a href="#features">Our Research</a></li>   
+                        <li class="scroll active"><a href="project.html">Projects</a></li>						
+                        <li class="scroll"><a href="publications.html">Publications</a></li>
+                        <li class="scroll"><a href="#pricing">Resources</a></li>
+                        <li class="scroll"><a href="contactUs.html">Contact Us</a></li>       
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+
+	<section id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Our Works</h2>
+            </div>
+
+            <div class="text-center">
+                <ul class="portfolio-filter">
+                    <li><a class="active" href="#" data-filter="*">All Works</a></li>
+                    <li><a href="#" data-filter=".designing">Designing</a></li>
+                    <li><a href="#" data-filter=".mobile">Mobile App</a></li>
+                    <li><a href="#" data-filter=".development">Development</a></li>
+                </ul><!--/#portfolio-filter-->
+            </div>
+
+            <div class="portfolio-items">
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/TextGeneration_figure.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>Text Generation</h3>
+                            Some description..
+                            <div class="w3-container">
+                            <button class="preview" onclick="document.getElementById('proj1').style.display='block'"><i class="fa fa-eye"></i></button>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+                                                           
+            <div id="proj1" class="w3-modal">
+                <div class="w3-modal-content w3-animate-top w3-card-4">
+                  <header class="w3-container w3-teal"> 
+                    <span onclick="document.getElementById('proj1').style.display='none'" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <h2>Text Generation</h2>
+                  </header>
+                  <div class="w3-container">
+                    <h4>Introduction</h4> 
+                    <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">This exploratory project assesses the effectiveness of a Logic Programming (LP) approach to integrate computing into middle school science education. Researching LP as a strategy to integrate computing into STEM offers an interesting and viable approach for the STEM+C field. While LP is not a new programming approach, it is under-explored in the STEM+C field where the focus is more on visually-based programming such as block-based programming (e.g., Scratch). Through logic programming, students will learn to represent STEM subject-matter knowledge in an explicit and precise manner, while practicing critical thinking and logical reasoning, and developing computer models based on scientific investigation and problem-solving. A key advantage of LP is in its simplicity and generalizability, and this project will provide valuable information about its effectiveness for STEM content area curriculum development.
+                    <a href='https://education.ufl.edu/stem-c/'><span style='text-decoration: underline;'>More about this project</span></a>.</p>
+                    
+                    <h4>Research supported by this funding</h4>
+                    <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Automatic text generation using deep learning: providing large-scale support for online learning communities</p>
+                    <h4>Introduction</h4>
+                    <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Participating in online communities has significant benefits to students learning in terms of students’ motivation, persistence, and learning outcomes. However, maintaining and supporting online learning communities is very challenging and requires tremendous work. Automatic support is desirable in this situation. The purpose of this work is to explore the use of deep learning algorithms for automatic text generation in providing emotional and community support for a massive online learning community, Scratch. Particularly, state-of-art deep learning language models GPT-2 and recurrent neural network (RNN) are trained using two million comments from the online learning community. We then conduct both a readability test and human evaluation on the automatic generated results for offering support to the online students. The results show that the GPT-2 language model can provide timely and human-written like replies in a style genuine to the data set and context for offering related support.
+                    Social support theory is the leading framework for providing support in online communities. Guided by social support theory, this study explores the ways of providing emotional and community support using deep learning-based language models. 
+                    GPT-2 is a transformer-based language model released by Google OpenAI in 2019. Transformer is an attention mechanism-based architecture. It transforms one sequence into another one with the help of Encoder or Decoder without implying any Recurrent Networks.</p>
+                    <br/><br/>
+                  </div>
+                </div>
+            </div>
+
+
+                <div class="portfolio-item mobile development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/project2-3-1.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/SSM.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Project Title</a> -->
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/project2-2-3.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/project3.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/project3-1-1.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                            Some description..
+                            <a class="preview" href="images/portfolio/project4.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/05.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/06.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/06.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/07.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/07.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/08.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/08.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+            </div>
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2022  <a href="index.html" title="AICE LAB">AICE LAB</a>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom-scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+Aragon, C., Huang, Y., Neff, G., &Xing, W.(in press).
+Developing a research agenda for Human-centered data scienc.
+In In Proceedings of the 2016 Computer Supported Cooperative Work and Social Computing (CSCW). San Francisco, CA: ACM.
+Xing, W., & Goggins, S. (2015).
+Student assessment in small groups: A spectral clustering model.
+In iConference 2015 Proceedings (pp. 1-5). Newport Beach, CA: IDEALS.
+
+Xing, W.,</span> Wadholm, B., & Goggins, S. (2014).
+Assessment analytics in CSCL: Activity theory based method.
+Learning and Becoming in Practice: Proceedings of the 11th International Conference of the Learning Sciences (ICLS 2014), (Vol. 3, pp. 1535-1536). Boulder, CO: International Society of the Learning Sciences.
+Xing, W., Goggins, S. (2014).
+Automated CSCL group assessment: activity theory based computational method.
+In LAK Workshops: Computational Approaches to Connecting Levels of Analysis in Networked Learning Communities.
+Ma, Y., Friel, C., & Xing, W. (2014).
+Instructional activities in a discussion board forum of an e-leaning management system. 
+In HCI International 2014-Posters' Extended Abstracts (pp. 112-116). Crete, Greece: Springer International Publishing.
+Ma, Y., Xing, W., & Friel, C. (2013).
+Factors and cues impacting user information selection and processing performance in kiosk touch screen interfaces.
+In HCI International 2013-Posters' Extended Abstracts (pp. 56-60). Las Vegas, Nevada: Springer Berlin Heidelberg.

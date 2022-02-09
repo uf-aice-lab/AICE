@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="webthemez">
+    <title>Publications</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+	<!--<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">-->
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous"> 
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+</head> 
+<body>
+
+
+    
+<div class="panel-group" id="accordion">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" 
+                            href="#collapse21">
+                                2021--Publications
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapse21" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <ul id='artilces21'>testing ------Publications in 2021</ul>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+    <script>
+        var oU21=document.getElementById('artilces21')
+        var str21=''
+    $.get('../xingArticles.json',function(data){
+        data.forEach(function(item,index){
+            //console.log(index)
+            item[1]=item[1].replace('W Xing','<strong>W Xing</strong>')
+            if (parseInt(item[3])===2021){
+                var article=item[1]+". "+"("+item[3]+")"+"."+item[0]+'. '+item[2]+"."
+                str21+='<li>'+article+'</li>'
+            } 
+        })
+        oU21.innerHTML=str21
+        console.log(oU21)
+        console.log(str21)
+    })
+    </script>
+</body>
+</html>

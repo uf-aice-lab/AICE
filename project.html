@@ -15,10 +15,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous"> 
     <link rel="shortcut icon" href="images/ico/favicon.ico"> 
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-</head> 
+    <style>
+        hr.new1 {
+            border-top: 1px solid red;
+            }
+        hr.new2 {
+            border-top: 1px dashed red;
+            }
+    </style>
 
+</head>
 <body id="home">
     <header id="header">
         <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
@@ -36,10 +45,23 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
 						<li class="scroll"><a href="index.html">About</a></li>
-                        <li class="scroll"><a href="team.html">Team</a></li>  
-                        <li class="scroll active"><a href="project.html">Projects</a></li>						
+                        <li class="scroll"><a href="team.html">Team</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="grants.html">Grants</a></li>
+                                <li><a href="project.html">Projects</a></li>
+                            </ul>
+					    </li>  
+
                         <li class="scroll"><a href="publications.html">Publications</a></li>
-                        <li class="scroll"><a href="#">Resources</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="software.html">Software</a></li>
+                                <li><a href="curriculum.html">Innovative Curriculum</a></li>
+                            </ul>
+					    </li> 
                         <li class="scroll"><a href="contactUs.html">Contact Us</a></li>       
                     </ul>
                 </div>
@@ -51,214 +73,962 @@
 	<section id="portfolio">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Our Works</h2>
+                <h2 class="section-title wow fadeInDown">Research Projects</h2>
             </div>
 
-            <div class="portfolio-items">
-                <div class="portfolio-item designing">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/TextGeneration_figure.png" alt="">
-                        <div class="portfolio-info">
-                            <h3>Text Generation</h3>
-                 
-                            <div class="w3-container">
-                                <button class="preview" onclick="document.getElementById('proj1').style.display='block'"><i class="fa fa-eye"></i></button>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-                                                           
-                <div id="proj1" class="w3-modal">
-                    <div class="w3-modal-content w3-animate-top w3-card-4">
-                    <header class="w3-container w3-teal"> 
-                        <span onclick="document.getElementById('proj1').style.display='none'" 
-                        class="w3-button w3-display-topright">&times;</span>
-                        <h2>Text Generation</h2>
-                    </header>
-                    <div class="w3-container">
-                        <h4>Introduction</h4> 
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">This exploratory project assesses the effectiveness of a Logic Programming (LP) approach to integrate computing into middle school science education. Researching LP as a strategy to integrate computing into STEM offers an interesting and viable approach for the STEM+C field. While LP is not a new programming approach, it is under-explored in the STEM+C field where the focus is more on visually-based programming such as block-based programming (e.g., Scratch). Through logic programming, students will learn to represent STEM subject-matter knowledge in an explicit and precise manner, while practicing critical thinking and logical reasoning, and developing computer models based on scientific investigation and problem-solving. A key advantage of LP is in its simplicity and generalizability, and this project will provide valuable information about its effectiveness for STEM content area curriculum development.
-                        <a href='https://education.ufl.edu/stem-c/'><span style='text-decoration: underline;'>More about this project</span></a>.</p>
-                        
-                        <h4>Research supported by this funding</h4>
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Automatic text generation using deep learning: providing large-scale support for online learning communities</p>
-                        <h4>Introduction</h4>
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Participating in online communities has significant benefits to students learning in terms of students’ motivation, persistence, and learning outcomes. However, maintaining and supporting online learning communities is very challenging and requires tremendous work. Automatic support is desirable in this situation. The purpose of this work is to explore the use of deep learning algorithms for automatic text generation in providing emotional and community support for a massive online learning community, Scratch. Particularly, state-of-art deep learning language models GPT-2 and recurrent neural network (RNN) are trained using two million comments from the online learning community. We then conduct both a readability test and human evaluation on the automatic generated results for offering support to the online students. The results show that the GPT-2 language model can provide timely and human-written like replies in a style genuine to the data set and context for offering related support.
-                        Social support theory is the leading framework for providing support in online communities. Guided by social support theory, this study explores the ways of providing emotional and community support using deep learning-based language models. 
-                        GPT-2 is a transformer-based language model released by Google OpenAI in 2019. Transformer is an attention mechanism-based architecture. It transforms one sequence into another one with the help of Encoder or Decoder without implying any Recurrent Networks.</p>
-                        <br/><br/>
-                    </div>
-                    </div>
-                </div>
-                <!---Proj2-->
-                <div class="portfolio-item designing">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/project2-3-1.png" alt="">
-                        <div class="portfolio-info">
-                            <h3>Social Media Mining</h3>
-        
-                            <div class="w3-container">
-                                <button class="preview" onclick="document.getElementById('proj2').style.display='block'"><i class="fa fa-eye"></i></button>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-                                                           
-                <div id="proj2" class="w3-modal">
-                    <div class="w3-modal-content w3-animate-top w3-card-4">
-                    <header class="w3-container w3-teal"> 
-                        <span onclick="document.getElementById('proj2').style.display='none'" 
-                        class="w3-button w3-display-topright">&times;</span>
-                        <h2>Social Media Mining</h2>
-                    </header>
-                    <div class="w3-container">
-                        <h4>Twitter</h4> 
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Collaborating with Bodong Chen , assistant professor in Learning Technologies at the University of Minnesota and Xin Chen, PhD candidate in Engineering Education at Purdue University, we aim to uncover new insights about the learning analytics community by analyzing Twitter archives from the past four Learning Analytics and Knowledge (LAK) conferences.
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Through descriptive analysis, interaction network analysis, hashtag analysis, and topic modeling of 10,736 tweets by 1,217 unique Twitter users, we found: extended coverage of the community over the years; increasing interactions among its members regard less of peripheral and in-persistent participation; increasingly dense, connected and balanced social networks; and more and more diverse research topics.</p>
-                        <img class="img-responsive" src="images/portfolio/project2-3-1.png" alt="">
-                        
-                        <h4>Yammer</h4>
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Collaborating with Marcela Borge , assistant professor in Learning Sciences at Penn State University, we evaluated a theoretically informed approach to using Social Media (Yammer) as a means to support the development of a community of learners in an introductory human computer interaction course.</p>
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Our primary design goals were (1) to use the social media environment to help develop a learning community that lived outside of and yet fed into the classroom environment and (2) to connect classroom to real world experiences in ways that students could explore in personally meaningful ways. We hypothesized that we could create opportunities for collective sense-making and reflection through these connected experiences. Social network, communication analysis, and multivariate analysis were used to examine the form and function of social interactions in Yammer.</p>
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Relying on multivariate analysis, social network analysis and qualitative communication analysis, the results suggest that the theoretically informed approach to using Yammer succeeded in encouraging processes associated with a community of learners. The methods used in this paper may contribute to more effective ways of assessing the quality of discourse in socio-technical environments and the findings provide potential models for using social media as new contexts for developing conceptualization and discourse practices.</p>
-                        <img class="img-responsive" src="images/portfolio/yammer.png" alt="">
-                        <br/><br/>
-                    </div>
-                    </div>
-                </div>
-
-                <!--Proj3-->
-                <div class="portfolio-item designing">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/project3.png" alt="">
-                        <div class="portfolio-info">
-                            <h3>Semantic Visual Analytics System</h3>
-        
-                            <div class="w3-container">
-                                <button class="preview" onclick="document.getElementById('proj3').style.display='block'"><i class="fa fa-eye"></i></button>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-                                                           
-                <div id="proj3" class="w3-modal">
-                    <div class="w3-modal-content w3-animate-top w3-card-4">
-                    <header class="w3-container w3-teal"> 
-                        <span onclick="document.getElementById('proj3').style.display='none'" 
-                        class="w3-button w3-display-topright">&times;</span>
-                        <h2>Semantic Visual Analytics System</h2>
-                    </header>
-                    <div class="w3-container">
-                        <h4>Semantic analytics</h4> 
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">We crawled data with 70,950 unique posts, 8,820 threads and 5,589 posters from 2009 to 2014. By operationalizing common ingroup identity theory in a computational model, this study proposed an automated mechanism that modeled both user behavior and textual information to organize discussion forum data by topical structure and enable the users to locate useful information effectively. Specifically, our proposed model offers topic tracing and detection to address how many topics are being discussed, what they are and where they are (which topics are covered by each thread). We are currently seeking to update the analytics system to also include the topic structure or relationships between topics in the system. Some visulizations are presented below.
-                        <img class="img-responsive" src="images/portfolio/project3.png" alt="">
-                        <br/><br/>
-                    </div>
-                    </div>
-                </div>
-
-                <!--Proj4-->
-                <div class="portfolio-item designing">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/project4.png" alt="">
-                        <div class="portfolio-info">
-                            <h3>Written Scientific Argumentation</h3>
-        
-                            <div class="w3-container">
-                                <button class="preview" onclick="document.getElementById('proj4').style.display='block'"><i class="fa fa-eye"></i></button>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-                                                           
-                <div id="proj4" class="w3-modal">
-                    <div class="w3-modal-content w3-animate-top w3-card-4">
-                    <header class="w3-container w3-teal"> 
-                        <span onclick="document.getElementById('proj4').style.display='none'" 
-                        class="w3-button w3-display-topright">&times;</span>
-                        <h2>High Adventure Science: Earth Systems and Sustainability</h2>
-                    </header>
-                    <div class="w3-container">
-                        <h4>Introduction</h4> 
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">High Adventure Science: Earth Systems and Sustainability is a 5-year 2.3 million project funded by National Science Foundation (NSF). It is collaborative among Concord Consortium, University of California Santa Cruz and the National Geogeraphic Society. The goal is to develop online modules for middle school and high school students in Earth and Space Science classes, testing the hypothesis that students who use computational models, analyze real-world data, and engage in building scientific reasoning and argumentation skills are better able to understand Earth science core ideas and how humans impact Earth's systems.
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;"></p>Concord Consortium PI: <a href='https://concord.org/about/staff/amy-pallant/'><font color="#0000EE">Amy Pallant</font></a>
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;"></p>Concord Consortium Co-PI: <a href='https://concord.org/about/staff/hee-sun-lee/'><font color="#0000EE">hee-sun-lee</font></a>
-                        <h4>My Role</h4> 
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">I worked as a research consultant for this project and particularly in designing and developing text mining approaches for students’ written scientific argumentation to automatically provide information and feedback to teachers and students. It includes automated scoring, automatically discover the underlying topics, automatically detect studednts’ mechanistic account of the phenomena and depict students’ mental models.
-                        <img class="img-responsive" src="images/portfolio/project4.png" alt="">
-                        <br/><br/>
-                    </div>
-                    </div>
-                </div>
-
-                <!--Proj5-->
-
-                <div class="portfolio-item designing">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/FAccT.png" alt="">
-                        <div class="portfolio-info">
-                            <h3>FAccT AI in Education</h3>
-        
-                            <div class="w3-container">
-                                <button class="preview" onclick="document.getElementById('proj5').style.display='block'"><i class="fa fa-eye"></i></button>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-                                                           
-                <div id="proj5" class="w3-modal">
-                    <div class="w3-modal-content w3-animate-top w3-card-4">
-                    <header class="w3-container w3-teal"> 
-                        <span onclick="document.getElementById('proj5').style.display='none'" 
-                        class="w3-button w3-display-topright">&times;</span>
-                        <h2>FAccT</h2>
-                    </header>
-                    <div class="w3-container">
-                        <h4>Introduction</h4> 
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">This project is funded by IES, Schmidt Family Foundation, UF AI Catalyst, and UFII Seed Grant. Online learning has received great popularity in K-12 and higher education as instruction increasingly migrates from conventional methods. To support online learners at a large scale, educational researchers have adopted artificial intelligence (AI) and learning analytics (LA) techniques such as machine learning (ML) to predict their learning outcomes automatically. However, limited attention has been paid to the fairness of prediction with AI in educational settings that could enlarge inequality in education. In this project, we aim to explore methods and strategies to evaluate and mitigate AI bias as well as explain AI decision-making to support students in Algebra Nation, an online math learning platform with more than 500,000 active students every year. Specifically, we have explored different strategies to enhance AI fairness for education in different tasks such as academically at-risk prediction, peer recommender for help-seeking, and conversational AI for socio-emotional support
-                        <img class="img-responsive" src="images/portfolio/FAccT.png" alt="">
-                        <br>
-                        <h4>Yet Another Predictive Model? Fair Predictions of Students’ Learning Outcomes in an Online Math Learning Platform</h4> 
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">This study aims to fill this gap by proposing a fair logistic regression algorithm. Specifically, we developed the fair logistic regression model and compared the fairness-aware model with fairness-unaware AI models (Logistic Regression, Support Vector Machine, and Random Forest). Fairness is evaluated with equalized odds that caters to statistical type I and II errors in predictions across demographic subgroups. The results showed that the fair logistic regression algorithm could achieve comparable predictive performance while producing notably higher fairness.
-                        <h4>Toward building a fair peer recommender to support help-seeking in online learning</h4>
-                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">This study formulated a new method to provide fair and accurate insights toward building a peer recommender to support help-seeking in online learning. Specifically, we developed the fair network embedding (Fair-NE) model and compared it with existing popular models. We trained and evaluated the models with a large dataset consisting of 187,450 discussion post-reply pairs by 10,182 Algebra I online learners from 2015 to 2020. Finally, we examined models with representation fairness, predictive accuracy, and predictive fairness. The results showed that the Fair-NE can achieve superior fairness in genders and races while retaining competitive predictive accuracy.</p>
-                        <br/><br/>
-                    </div>
-                    </div>
-                </div>
-
-            </div>
-        </div><!--/.container-->
-    </section><!--/#portfolio-->
-
-    <footer id="footer">
-        <div class="container">
             <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2022  <a href="index.html" title="AICE LAB">AICE LAB</a>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        
+                        <!--proj1-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj1">
+                            <img src='images/portfolio/FAccT_AI.png' style="width:100%"/>
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj1" role="dialog">
+                            <div class="modal-dialog" style='width:1000px;height:100px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">FAccT AI in Education</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">This project is generously funded by 
+                                        <span style='text-decoration: underline'><a href='https://ies.ed.gov/funding/grantsearch/details.asp?ID=1804'>IES VLL (Virtual Learning Lab)</a></span>, 
+                                        <span style='text-decoration: underline'><a href='https://tsffoundation.org/'>Schmidt Family Foundation</a></span>, 
+                                        <span style='text-decoration: underline'><a href='https://research.ufl.edu/finding-funding/internal-competitive-funding.htmlhttps://research.ufl.edu/finding-funding/internal-competitive-funding.html'>UF AI Catalyst</a></span>, 
+                                        and <span style='text-decoration: underline'><a href='https://informatics.research.ufl.edu/ufii-programs/seed-funds.html'>UFII Seed Grant</a></span>. 
+                                        To support online learners of STEM at a large scale, educational researchers have adopted artificial intelligence (AI) and learning analytics (LA) techniques such as machine learning (ML) to improve teaching and learning processes. 
+                                        However, limited attention has been paid to the fairness of intelligence in educational settings that could enlarge inequality in education. In this project, we aim to explore methods and strategies to evaluate and mitigate AI bias 
+                                        as well as explain AI decision-making to support students in Algebra Nation, an online math learning platform with about 1M active students. Specifically, we have explored different strategies to enhance AI fairness for education in 
+                                        different tasks such as academically at-risk prediction, peer recommender for help-seeking, and conversational AI for socio-emotional support. Check our 
+                                        <a href='https://www.youtube.com/watch?v=392JuuIPX4Q'><span style='text-decoration: underline;'>promotional video</span></a>.</p>
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj11.png" alt="">
+                                        <hr class ='new2'/>
+                                        <img class="img-responsive" src="images/portfolio/proj12.png" alt="">
+                                        <br>
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        Check out the papers published in <span style='text-decoration: underline'><a href='https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13227'>British Journal of Educational Technology</a></span>, 
+                                        <span style='text-decoration: underline'><a href='https://www.tandfonline.com/doi/abs/10.1080/01587919.2021.2020619'>Distance Education</a></span>, 
+                                        <span style='text-decoration: underline'><a href='https://dl.acm.org/doi/10.1145/3448139.3448200'>ACM Learning Analytics and Knowledge (LAK)</a></span>, 
+                                        and <span style='text-decoration: underline'><a href='https://learningatscale.acm.org/las2022/accepted-work-in-progress-and-demonstrations/'>ACM Learning@Scale (L@S)</a></span>. One additional paper is currently under minor revision at <span style='text-decoration: underline'><a href='https://www.tandfonline.com/toc/nile20/current'>Interactive 
+                                        Learning Environments</a></span>.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj1"><h5 style='text-align:center'>FAccT in Education</h5></a>
+                        <!--proj1 end-->
+
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                    </ul>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+
+                        <!--proj2-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj2"><img src='images/portfolio/AI_Recommender for_Flamingo.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj2" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">AI Recomender for Flamingo</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        This project is generously funded by <span style='text-decoration:underline'><a href='https://www.helios.org/how-we-work/investment-history/'>
+                                        Helios Education Foundation</a></span>. The recommender system is embedded 
+                                        in a teachers' professional learning platform with more than 10,000 users, <span style='text-decoration:underline'>
+                                        <a href='https://platform.flamingolearning.com/user/login'>Flamingo</a></span>. There are two 
+                                        components in the system: (1) a hybrid recommender system that recommends courses to take and (2) a semantic matching 
+                                        system that recommends videos and readings based on participants' quiz answers. The hybrid recommendation system consists 
+                                        of three deep learning based filtering algorithms: i) knowledge-based filtering that resembles an expert system, where 
+                                        information is filtered based on content experts’ opinions on learning paths of users with different goals (e.g. professional 
+                                        development, earning credentials, or content review); ii) content-based filtering that incorporates manually created metadata of 
+                                        users (e.g. learning styles) and learning resources (e.g. categories, difficulty, and etc.), as well as the current user’s previous 
+                                        actions; and iii) collaborative filtering recommends by calculating metrics (e.g. similarity) from other users’ prior actions. The 
+                                        semantic matching system utilizes bidirectional encoder representations from transformers (BERT) to infer potential learning videos 
+                                        and materials based on users’ quiz answers.
+                                        </p>
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj21.png" alt="">
+                                        <!-- <hr class ='new2'/>
+                                        <img class="img-responsive" src="images/portfolio/proj22.png" alt=""> -->
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Check out later</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj2"><h5 style='text-align:center'>AI Recomender for Flamingo</h5></a>
+                        <!--proj2 end-->
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        
+                        <!--proj3-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj3"><img src='images/portfolio/AI_Cyberinfrastru.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj3" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">AI Cyberinfrastructure</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            This project is partially funded by the <span style='text-decoration:underline'><a href='https://tsffoundation.org/'>Schmidt Family Foundation</a></span>. 
+                                            Advancements in algorithms and computing infrastructure have pushed the limits of AI. The open-source ethos in the AI research community has further expedited the progress of 
+                                            AI not only due to effective communications among researchers but also as a result of its ability to search for more robust 
+                                            solutions based on prior findings. The recent breakthrough of deep learning, particularly the transformer architecture, has 
+                                            continuously revolutionized AI. The transformer architecture suggests the possibility of using pre-trained deep learning models 
+                                            to democratize human intellect and computing power. Numerous research and studies have suggested that models, even those with 
+                                            limited training data, can benefit from pretrained models. However, the existing gigantic transformers focus on contexts such as 
+                                            business (e.g., Self-driving cars) and medicine (e.g., AlphaFold). Few researchers in education have provided such infrastructure 
+                                            for the learning engineering community. To our knowledge, no one has yet spent the money and time to train a new transformer-based 
+                                            NLP model that tries to customize these models to be more applicable to K12 use. Therefore, this project aims to create AI cyberinfrastructure 
+                                            with deep learning to support learning engineering research and development. That is, it plans to provide open-sourced software packages 
+                                            powered by gigantic pre-trained deep learning language models (with billions of parameters) for learning engineering. You can find some 
+                                            of our <span style='text-decoration:underline'><a href='https://huggingface.co/uf-aice-lab/math-roberta'>open-sourced models</a></span> and 
+                                            <span style='text-decoration:underline'><a href='https://github.com/uf-aice-lab/fair-peer-recommender'>algorithms</a></span> here. You can find some of our <span style='text-decoration:underline'><a href='https://huggingface.co/uf-aice-lab/math-roberta'>
+                                            open-sourced models</a></span> and algorithms here using <span style='text-decoration:underline'><a href='https://www.rc.ufl.edu/about/hipergator/'>HiPerGator Supercomputing</a></span>. 
+                                            Checkout the usage <a style='text-decoration:underline' href='https://youtu.be/JMSc4oKCsNM'>video</a> of HiPerGator for training process. </p>
+                                            <hr class ='new1'/>
+                                            <img class="img-responsive" src="images/portfolio/proj31.png" alt="">
+                                            <hr class ='new2'/>
+                                            <img class="img-responsive" src="images/portfolio/proj32.png" alt=""> 
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj3"><h5 style='text-align:center'>AI Cyberinfrastructure</h5></a>
+                        <!--proj3 end-->
+
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail">
+
+                        <!--proj4-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj4"><img src='images/portfolio/proj4.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj4" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Learning Analytics for Engineering Design</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            This project is generously funded by an <span style='text-decoration:underline'><a href='https://www.nsf.gov/awardsearch/showAward?AWD_ID=1348530'>NSF (EHR CORE Research Subcontract)</a></span>. 
+                                            Practicing science is one of the most important goals of K-12 engineering education, which is now part of the Next Generation 
+                                            Science Standards. This project is delving into large quantities of process data to systematically identify bottlenecks in design 
+                                            processes that pose difficulties for students to apply science. Large learner datasets are being collected from over hundreds of 
+                                            students in Indiana and Massachusetts through automatic, unobtrusive logging of student design processes enabled by a unique CAD 
+                                            tool that supports the design of energy-efficient buildings using thermodynamics and heat transfer concepts. We have conducted a 
+                                            series of data mining studies in connecting with learning sciences theories to better understand students’ engineering design 
+                                            processes and its interaction with their science knowledge and performance.
+                                        </p>
+                                        <hr class ='new1'/>
+                                            <img class="img-responsive" src="images/portfolio/proj41.png" alt="">
+                                        <hr class ='new2'/>
+                                            <img class="img-responsive" src="images/portfolio/proj42.png" alt="">
+                                        <hr class ='new1'/>
+                                            <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <ul>
+                                            <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Xing, W., Pei, B., Li, S., Chen, G., & Xie, C. (2019). <a style='text-decoration:underline' href='https://www.tandfonline.com/doi/abs/10.1080/10494820.2019.1680391'>Using 
+                                            learning analytics to support students’ engineering design: the angle of prediction</a>. <span style='font-style"italic'>Interactive Learning Environments</span>, 1-18.</p></li>
+                                            <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Zheng, J., Xing, W., Zhu, G., Chen, G., Zhao, H., & Xie, C. (2020). <a style='text-decoration:underline' href='https://www.sciencedirect.com/science/article/pii/S0360131519302222'>Profiling self-regulation 
+                                            behaviors in STEM learning of engineering design</a>. <span style='font-style"italic'>Computers & Education, 143</span>, 103669.</p></li>
+                                            <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Li, S., Chen, G., Xing, W., Zheng, J., & Xie, C. (2020). <a style='text-decoration:underline' href='https://www.sciencedirect.com/science/article/pii/S0360131520300981'>Longitudinal clustering of students’ 
+                                            self-regulated learning behaviors in engineering design</a>. <span style='font-style"italic'>Computers & Education, 153</span>, 103899.</p></li>
+                                            <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Li, S., Du, H., Xing, W., Zheng, J., Chen, G., & Xie, C. (2020). <a style='text-decoration:underline' href='https://www.sciencedirect.com/science/article/pii/S0360131520301858'>Examining temporal dynamics 
+                                            of self-regulated learning behaviors in STEM learning: A network approach</a>. <span style='font-style"italic'>Computers & Education, 158</span>, 103987.</p></li>
+                                            <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Zheng, J., Xing, W., Huang, X., Li, S., Chen, G., & Xie, C. (2020). <a style='text-decoration:underline' href='https://par.nsf.gov/servlets/purl/10154745'>The role of self-regulated 
+                                            learning on science and design knowledge gains in engineering projects</a>. <span style='font-style"italic'>Interactive Learning Environments</span>, 1-13.</p></li>
+                                            <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Huang, X., Xing, W., Zhao, H., Chao, J., Schimpf, C., Chen, G., & Xie, C. (2020). <a style='text-decoration:underline' href='https://repository.isls.org/handle/1/6435'>Understanding 
+                                            Science Learning Through Writings on Engineering Design</a>.</p></li>
+                                            <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Zhu, G., Zeng, Y., Xing, W., Du, H., & Xie, C. (2021). <a style='text-decoration:underline' href='https://link.springer.com/article/10.1007/s10956-021-09906-3'>Reciprocal Relations Between Students’ 
+                                            Evaluation, Reformulation Behaviors, and Engineering Design Performance Over Time</a>. <span style='font-style"italic'>Journal of Science Education and Technology, 30</span>(5), 595-607.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj4"><h5 style='text-align:center'>Learning Analytics for Engineering Design</h5></a>
+                        <!--proj4 end-->
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer><!--/#footer-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script> 
-    <script src="js/mousescroll.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/jquery.inview.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/custom-scripts.js"></script>
+            <!--Second row-->
+             <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        
+                        <!--proj5-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj5">
+                            <img src='images/portfolio/LogicDS.png' style="width:100%"/>
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj5" role="dialog">
+                            <div class="modal-dialog" style='width:1000px;height:100px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">LogicDS</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        LogicDS is a recently NSF DRK-12 funded project. Data science is an interdisciplinary subject driven by real-world applications and builds on foundations in 
+                                        computing, math, and statistics. It provides excellent opportunities, not only for high school students to prepare their future careers, but also to develop 
+                                        college-ready STEM competencies. However, these opportunities are still inaccessible to the vast majority of students, particularly those from rural communities, 
+                                        because of the complexity of the overlapping disciplines from mathematics, statistics to computer science and the lack of flexible and reliable learning and 
+                                        teaching resources. We propose an innovative approach to integrating the foundations of data science into one course, named as LogicDS using mathematical 
+                                        logic. Mathematical logic provides a language for us to develop precise definitions of statistics concepts to explicate the logic and reasoning underlying 
+                                        these concepts, and thus promote deeper sense making and reasoning. Furthermore, the learning activities will be contextualized in developing computer models 
+                                        to explore real-world problems using datasets of the United Nation Sustainable Development Goals (SDGs). The LogicDS course will be amplified to reach students 
+                                        of rural communities by our partnership with Florida Virtual School (FLVS), a leader in online K-12 education. FLVS’s effective online teaching and learning 
+                                        practices, augmented by personalized learning, provide equal opportunities for data science learning for anyone at anytime from anywhere.
+                                        </p>
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj51.png" alt="">
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Check out later</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj5"><h5 style='text-align:center'>LogicDS</h5></a>
+                        <!--proj1 end-->
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+
+                        <!--proj6-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj6"><img src='images/portfolio/LPK12.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj6" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">LPK12</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            This project is generously funded by <span style='text-decoration:underline'><a href='https://www.nsf.gov/awardsearch/showAward?AWD_ID=1901704&HistoricalAwards=false'>NSF STEM+C</a></span>. This exploratory project examines and assesses the effectiveness of a Logic Programming (LP) approach 
+                                            to integrate computing into middle school science education. Researching LP as a strategy to integrate computing into STEM offers an interesting and 
+                                            viable approach for the STEM + C field. While LP is not a new programming approach, it is under-explored in the STEM + C field where the focus is more 
+                                            on visually-based programming such as block-based programming (e.g., Scratch). Through logic programming, students will learn to represent STEM subject-matter 
+                                            knowledge in an explicit and precise manner, while practicing critical thinking and logical reasoning, and developing computer models based on scientific 
+                                            investigation and problem-solving. A key advantage of LP is in its simplicity and generalizability, and this project will provide valuable information about 
+                                            its effectiveness for STEM content area curriculum development. More about this project:<span style='text-decoration:underline'><a href='https://education.ufl.edu/stem-c/ '>https://education.ufl.edu/stem-c/ </a></span>
+                                        </p>
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj61.png" alt="">
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <ul>
+                                        <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Nguyen, V. T., Zhang, Y., Jung, K., Xing, W., & Dang, T. (2020, January). <a style='text-decoration:underline' href='https://link.springer.com/chapter/10.1007/978-3-030-39197-3_6'>VRASP: A Virtual 
+                                        Reality Environment for Learning Answer Set Programming</a>. In  <span style='font-style"italic'>International Symposium on Practical Aspects of Declarative Languages</span>(pp. 82-91). Springer, Cham.</p></li>
+                                        <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Du, H., Xing, W., & Zhang, Y. (2021, June). <a href='https://dl.acm.org/doi/10.1145/3456565.3460049' style='text-decoration:underline'>A Debugging Learning Trajectory for Text-Based Programming Learners</abs>. In 
+                                        <span style='font-style"italic'>Proceedings of the 26th ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE) V.2</span>(pp. 645-645).</p></li>
+                                        <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Du, H., Xing, W., & Pei, B. (in press). <a style='text-decoration:underline' href='https://www.tandfonline.com/doi/abs/10.1080/10494820.2021.1993932'>Automatic Text Generation Using Deep Learning: Providing Large-Scale Support 
+                                        for Online Learning Communities</a>. <span style='font-style"italic'>Interactive Learning Environments</span>. doi: <a href='10.1080/10494820.2021.1993932' style='text-decoration:underline'>10.1080/10494820.2021.1993932</a> (Partially supported)</p></li>
+                                        <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Du, H., Xing, W., Pei, B., Zeng, Y., Lu, J., & Zhang, Y. (2022, April). Trends and Issues in STEM + C Research: 
+                                        A Bibliometric Perspective. In <span style='font-style"italic'><a href='http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146666' style='text-decoration:underline'>Proceedings of the 14th International Conference on Computer Supported Education (CSEDU)</a></span>(Vol. 1, pp. 69-80).</p></li>
+                                        <li><p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Hansen, Z., Du, H., Eckel, R., Lugo, J., Xing, W., & Zhang, Y. (2022, August). A Preliminary Data-driven Analysis of 
+                                        Common Errors Encountered by Novice Answer Set Programmers. In the <span style='font-style"italic'><a href='https://software.imdea.org/Conferences/ICLP2022/' style='text-decoration:underline'>Technical Communication Proceedings of the 38th International Conference on Logic Programming (ICLP)</a></span>.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj6"><h5 style='text-align:center'>LPK12</h5></a>
+                        <!--proj6 end-->
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        
+                        <!--proj7-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj7"><img src='images/portfolio/Project_Space.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj7" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Project SPACE</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        This project is generously funded by <span style='text-decoration:underline'><a href='https://www.nsf.gov/awardsearch/showAward?AWD_ID=1901704&HistoricalAwards=false'>NSF iTEST</a></span>. 
+                                        Spatial skills are defined as the ability to perceive, retrieve, visualize, and mentally 
+                                        transform the static and dynamic visual information of objects and their relationships. This ability helps people to abstract key visual 
+                                        and spatial information from distracting backgrounds, to transform 2D information into 3D or vice versa, to navigate a given environment 
+                                        or to visualize a new setting. Research shows that spatial skills are important predictors of long-term achievement and attainment in Science, 
+                                        Technology, Engineering, and Mathematics (STEM). Computational thinking refers to the thought processes in expressing solutions as computational 
+                                        steps or algorithms that can be carried out by an information-processing unit, or computer. Computational thinking often involves the practices of 
+                                        extracting the essence of a complex problem (abstraction), dissecting the problem into manageable and functional parts (decomposition), and designing 
+                                        and evaluating logical and ordered instructions for rendering a solution to the problem (automation and analysis). We bring together a team of 
+                                        scientists, educational technologists, and career development experts for this project to create an innovative learning experience and suitable 
+                                        technologies to foster upper elementary school Latinx students’ spatial computational thinking skills, as well as to raise upper elementary school 
+                                        Latinx students’ awareness of computationally-intensive careers, and interest and self-efficacies in computing and engineering.
+                                        </p>
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj71.png" alt="">
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">Check out later</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj7"><h5 style='text-align:center'>Project SPACE</h5></a>
+                        <!--proj7 end-->
+
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail">
+
+                        <!--proj8-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj8"><img src='images/portfolio/infrared_explorer.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj8" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Infrared Explorer</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        This project is in collaboration with <span style='text-decoration:underline'><a href='https://intofuture.org/'>Institute of Future Intelligence</a></span> 
+                                        with support from the <span style='text-decoration:underline'><a href='https://www.nsf.gov/awardsearch/showAward?AWD_ID=1712676'>NSF AISL</a></span> program. 
+                                        Heat and temperature are closely related to daily life, upon which concepts and principles of thermodynamics 
+                                        are the foundation for the natural sciences of physics, chemistry, and biology. However, physics of heat have 
+                                        been identified as a notoriously difficult concept that confuse students. This project focuses on the design and 
+                                        development of a mobile app, <span style='text-decoration:underline'><a href='https://intofuture.org/ie.html'>Infrared Explorer (IE)</a></span>, to better support students’ learning with thermodynamics. 
+                                        IE organically integrated physical experiments and virtual tools and utilized thermal imaging powered by 
+                                        FLIR ONE Pro thermal camera and its software development kit (SDK). This thermal camera provides images 
+                                        rendered with color heatmap to serve as direct indicators on temperature differences. Meanwhile, IE was 
+                                        developed with a series of tools (e.g., thermometer reading, real-time graphing, recording, etc.) to support 
+                                        students’ scientific inquiry either by following our expert-designed curriculum or conducting their own experiments. 
+                                        </p>
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj81.png" alt="">
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        Two papers are currently under review at <a href='https://www.journals.elsevier.com/computers-and-education' style='text-decoration:underline'>
+                                        Computers & Education</a> and <a style='text-decoration:underline' href='https://www.springer.com/journal/10639'>Education and Information Technologies</a></span>.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj8"><h5 style='text-align:center'>Infrared Explorer</h5></a>
+                        <!--proj8 end-->
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Third row-->
+             <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <!--proj9-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj9">
+                            <img src='images/portfolio/Conversational_AI.png' style="width:100%"/>
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj9" role="dialog">
+                            <div class="modal-dialog" style='width:1000px;height:100px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Conversational AI</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        This project is generously funded by <span style='text-decoration:underline'><a href='https://ies.ed.gov/funding/grantsearch/details.asp?ID=1804'>IES VLL (Virtual Learning Lab)</a></span>, 
+                                        <span style='text-decoration:underline'><a href='https://research.ufl.edu/finding-funding/internal-competitive-funding.html'>UF AI Catalyst</a></span>, and <span style='text-decoration:underline'><a href='https://informatics.research.ufl.edu/ufii-programs/seed-funds.html'>UFII Seed Grant</a></span>. To efficiently and 
+                                        effectively address students' low level of participation in online collaborative learning at a large scale, researchers have 
+                                        adopted learning design principles with learning analytics. A promising approach in automatically supporting students' online 
+                                        collaboration are conversational AI (ConvAI). ConvAI and chatbot are two terms often used interchangeably, which are defined 
+                                        as human- developed software powered by natural language processing techniques (NLP) to spontaneously respond to human languages. 
+                                        There are two distinct ways of constructing ConvAI. The first is a rule-based agent that requires manual engineering with classical 
+                                        NLP methods, and the other uses AI to generate responses with automatic data-driven inferences. This project aims to investigate and 
+                                        develop ConvAI using deep learning to support students with human-like, supportive, and safe texts automatically. Specifically, we 
+                                        have examined giant deep learning models with hundreds of millions and even billions of parameters to provide conversational support to students. 
+                                        </p>
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj91.png" alt="">
+                                        <hr class ='new2'/>
+                                        <img class="img-responsive" src="images/portfolio/proj92.png" alt="">
+                                        <hr class ='new2'/>
+                                        <img class="img-responsive" src="images/portfolio/proj93.png" alt="">
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        Check out the papers published in <span style='text-decoration:underline'><a href='https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13227'>British Journal of Educational Technology</a></span>, 
+                                        <span style='text-decoration:underline'><a href='https://www.tandfonline.com/doi/abs/10.1080/10494820.2021.1993932'>Interactive Learning Environments</a></span>, and <span style='text-decoration:underline'><a href='https://link.springer.com/article/10.1007/s40593-020-00235-x'>International Journal of Artificial Intelligence in Education</a></span>.</span>.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj9"><h5 style='text-align:center'>Conversational AI</h5></a>
+                        <!--proj9 end-->
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+
+                        <!--proj10-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj10"><img src='images/portfolio/proj10.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj10" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Learning Analytics Dashboard</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        This project is about exploring Fairness, Accountability, and Transparency (FAccT) AI in Education. To support the FAccT AI research in online learning environment, 
+                                        this research aims to help researchers better understand students’ learning patterns, improve their awareness of ethical issues in AI applications, and build better 
+                                        FAccT AI applications in education even without strong programming experience. We designed and developed a no-code visual analytic platform to present the learning 
+                                        information and decision-making processes that are otherwise unobservable. With this platform, researchers are able to examine students’ learning process in a finer 
+                                        granularity, interact AI algorithms’ decision-making processes, and explore potential fairness issues, and build better FAccT AI applications in their contexts.  
+                                        </p>
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj10.1.png" alt="">
+                                        <hr class ='new2'/>
+                                        <img class="img-responsive" src="images/portfolio/proj10.2.png" alt="">
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        A dissertation is written to describe the platform.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj10"><h5 style='text-align:center'>Learning Analytics Dashboard</h5></a>
+                        <!--proj10 end-->
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        
+                        <!--proj11-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj11"><img src='images/portfolio/proj11s.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj11" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Writen scientific argumentation</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        High Adventure Science: Earth Systems and Sustainability is an <span style='text-decoration:underline'><a href='https://www.nsf.gov/awardsearch/showAward?AWD_ID=1220756'>NSF DRK-12</a></span> project to develop online modules for middle school and high 
+                                        school students in Earth and Space Science classes, testing the hypothesis that students who use computational models, analyze real-world 
+                                        data, and engage in building scientific reasoning and argumentation skills are better able to understand Earth science core ideas and how 
+                                        humans impact Earth's systems. I engaged in this project particularly for designing and developing data mining approaches for students’ 
+                                        written scientific argumentation to automatically provide information and feedback to teachers and students. It includes automated scoring, 
+                                        automatically discover the underlying topics, the role of graph in scientific argumentation through image processing, automatically detect 
+                                        students’ mechanistic account of the phenomena and depict students’ mental models. Check out the <span style='text-decoration:underline'><a href='https://has.concord.org/'>High Adventure Science live system</span></a>. 
+                                        </p>
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj11.1.png" alt="">
+                                        <hr class ='new2'/>
+                                        <img class="img-responsive" src="images/portfolio/proj11.2.png" alt="">
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        <ul>
+                                            <li>
+                                            Xing, W., Lee, H. S., & Shibani, A. (2020). <a style='text-decoration:underline' href='https://link.springer.com/article/10.1007/s11423-020-09761-w'>Identifying patterns in students’ scientific argumentation: content analysis through text mining using Latent Dirichlet Allocation</a>. <span style='font-style:italic'>Educational Technology Research and Development, 68</span>(5), 2185-2214.
+                                            </li>
+                                            <li>
+                                            Pei, B., Xing, W., & Lee, H. S. (2019). <a style='text-decoration:underline' href='https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1111/bjet.12741'>Using automatic image processing to analyze visual artifacts created by students in scientific argumentation</a>. <span style='font-style:italic'>British Journal of Educational Technology, 50</span>(6), 3391-3404.
+                                            </li>
+                                        </ul>
+                                        Check out the paper published in <a style='text-decoration:underline' href='https://www.computer.org/csdl/proceedings'>2015 IEEE Interantional Conference on Data Mining (ICDM)</a>.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj11"><h5 style='text-align:center'>Writen scientific argumentation</h5></a>
+                        <!--proj11 end-->
+
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail">
+
+                        <!--proj12-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj12"><img src='images/portfolio/proj12s.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj12" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Social Media Analytics</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            Social media has become an essential part of our life, providing opportunities for people to share, search, and connect. 
+                                            It has also changed the way how people learn. Various social media platforms have been used to supplement (in)formal 
+                                            learning and training, such as Twitter and Facebook. Social media is recognized for its features to contribute to learning 
+                                            and increase the sense of professional community, given its affordances of enabling learners to learn with and from each other 
+                                            in highly situational, dynamic and interactive environments. This project aims to understand how social media can be used to 
+                                            facilitate learning and how people learn on social media sites through big data analytics.
+                                            <hr class ='new1'/>
+                                            <img class="img-responsive" src="images/portfolio/proj12.1.png" alt="">
+                                            <hr class ='new2'/>
+                                            <img class="img-responsive" src="images/portfolio/proj12.2.png" alt="">
+                                            <hr class ='new1'/>
+                                            <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                            <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            <ul>
+                                                <li>
+                                                Chen, B., Chen, X., & Xing, W. (2015, March). " <a style='text-decoration:underline' href='https://dl.acm.org/doi/10.1145/2723576.2723584'>Twitter Archeology" of learning analytics and knowledge conferences</a>. In  <span style='font-style:italic'>Proceedings of the Fifth International Conference on learning analytics and knowledge</span>(pp. 340-349).
+                                                </li>
+                                                <li>
+                                                Xing, W., & Gao, F. (2018). <a style='text-decoration:underline' href='https://www.sciencedirect.com/science/article/pii/S0360131518302148'>Exploring the relationship between online discourse and commitment in Twitter professional learning communities</a>. <span style='font-style:italic'>Computers & Education, 126</span>(6), 388-398.
+                                                </li>
+                                                <li>
+                                                Du, H., Nguyen, L., Yang, Z., Abu-Gellban, H., Zhou, X., Xing, W., ... & Jin, F. (2019, July). <a style='text-decoration:underline' href='https://ieeexplore.ieee.org/document/8754045'>Twitter vs news: Concern analysis of the 2018 california wildfire event</a>. In <span style='font-style:italic'>2019 IEEE 43rd Annual Computer 
+                                                Software and Applications Conference (COMPSAC)</span> (Vol. 2, pp. 207-212). IEEE.
+                                                </li>
+                                                <li>
+                                                Arslan, O., Xing, W., Inan, F. A., & Du, H. (2022). <a style='text-decoration:underline' href='https://onlinelibrary.wiley.com/doi/10.1111/jcal.12633?af=R'>Understanding topic duration in Twitter learning communities using data mining</a>. <span style='font-style:italic'>Journal of Computer Assisted Learning, 38</span>(2), 513-525. 
+                                                </li>
+                                                <li>
+                                                Du, H., Xing, W., & Zhu, G. (accepted). Mining Teacher Informal Online Learning Networks: Insights from Massive Educational Chat Tweets. <span style='font-style:italic'><a style='text-decoration:underline' href='https://journals.sagepub.com/home/jec'>Journal of Educational Computing Research</a></span>. 
+                                                </li>
+                                            </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj12"><h5 style='text-align:center'>Social Media Analytics</h5></a>
+                        <!--proj12 end-->
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Third row-->
+             <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <!--proj13-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj13">
+                            <img src='images/portfolio/proj13s.png' style="width:100%"/>
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj13" role="dialog">
+                            <div class="modal-dialog" style='width:1000px;height:100px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">MOOCs</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            Massive open online courses (MOOCs) recently move into the center stage of the discourse. While MOOCs demonstrate the potential of using 
+                                            Internet to make education available to a broader base, the high number of enrollment and dropout for each course raise methodological 
+                                            difficulties for instructors to identify at-risk students and provide in-time interventions. To some extent, scaling up learning in MOOCs 
+                                            can be considered as a sacrifice of pedagogical support. It is almost impossible to offer the same support quality in a class of five 
+                                            thousand as in a class of fifty. Although a major portion of participants dropping out either are unable to engage in the course 
+                                            activities at all or dropping out after the first week of participation, a large fraction of participants persists in the course 
+                                            longer but then drop out along the way. It suggests that there are learners who are struggling to stay involved. Identifying this 
+                                            particular portion of struggling students and supporting their participation may become the first low hanging fruit to enhance 
+                                            the success of the MOOCs. In this project, we explore a series of strategies through data mining to understand how to better 
+                                            support MOOC learners through analytics and AI. 
+                                            <hr class ='new1'/>
+                                            <img class="img-responsive" src="images/portfolio/proj13.1.png" alt="">
+                                            <hr class ='new2'/>
+                                            <img class="img-responsive" src="images/portfolio/proj13.2.png" alt="">
+                                            <hr class ='new1'/>
+                                            <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                            <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            <ul>
+                                                <li>
+                                                Liu, B., Xing, W., Zeng, Y., & Wu, Y. (2022). <a style='text-decoration:underline' href='https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1111/bjet.13193'>Linking cognitive processes and learning outcomes: The influence of cognitive presence on learning performance in MOOCs</a>. <span style='font-style:italic'>British Journal of Educational Technology</span>.
+                                                </li>
+                                                <li>
+                                                Tang, H., & Xing, W. (2022). <a href='https://ajet.org.au/index.php/AJET/article/view/5768' style='text-decoration:underline'>Massive open online courses for professional certificate programs? Perspectives on professional learners’ longitudinal participation patterns</a>. <span style='font-style:italic'>Australasian Journal of Educational Technology, 38</span>(1), 136-147.
+                                                </li>
+                                                <li>
+                                                Xing, W. (2019). <a href='https://www.tandfonline.com/doi/abs/10.1080/01587919.2018.1553560?journalCode=cdie20' style='text-decoration:underline'>Exploring the influences of MOOC design features on student performance and persistence</a>. <span style='font-style:italic'>Distance Education, 40</span>(1), 98-113.
+                                                </li>
+                                                <li>
+                                                Tang, H., Xing, W., & Pei, B. (2018). <a href='https://www.tandfonline.com/doi/abs/10.1080/01587919.2018.1476841?journalCode=cdie20' style='text-decoration:underline'>Exploring the temporal dimension of forum participation in MOOCs</a>. <span style='font-style:italic'>Distance Education, 39</span>(3), 353-372.
+                                                </li>
+                                                <li>
+                                                Xing, W., Chen, X., Stein, J., & Marcinkowski, M. (2016). <a href='https://www.sciencedirect.com/science/article/pii/S074756321530279X' styele='text-decoration:underline'>Temporal predication of dropouts in MOOCs: Reaching the low hanging fruit through stacking generalization</a>. <span style='font-style:italic'>Computers in human behavior, 58</span>, 119-129.
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj13"><h5 style='text-align:center'>MOOCs</h5></a>
+                        <!--proj13 end-->
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+
+                        <!--proj14-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj14"><img src='images/portfolio/Online_Learning_Analytics.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj14" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Online Learning Analytics</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        This project is partly funded by <span style='text-decoration:underline'>
+                                        <a href='https://www.psu.edu/news/academics/story/center-online-innovation-learning-announces-spring-2017-grant-recipients/'>PSU Center for Innovation in Online Learning</a></span>. 
+                                        Online learning has become increasingly important in digital era. However, 
+                                        there are a lot of concerns and questions in online learning processes, such 
+                                        as difficulties in monitoring students’ learning processes, the high dropout 
+                                        rates, and providing personalized and timely interventions for students. We 
+                                        have been working on building effective, interpretable, and transferrable 
+                                        early prediction models for online learning, and we also connected learning 
+                                        theories with computational methods to model online learning processes to 
+                                        understand students’ behavior and progress in a much granular scale to advance 
+                                        the basic understanding of students’ online learning processes.  
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj14.1.png" alt="">
+                                        <hr class ='new2'/>
+                                        <img class="img-responsive" src="images/portfolio/proj14.2.png" alt="">
+                                        <hr class ='new2'/>
+                                        <img class="img-responsive" src="images/portfolio/proj14.3.png" alt="">
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        <ul>
+                                            <li>
+                                            Xing, W., Du, D., Bakhshi, A., Chiu, K. C., & Du, H. (2021). <a href='https://ieeexplore.ieee.org/document/9521734' style='text-decoration:underline'>Designing a Transferable Predictive Model for Online Learning Using a Bayesian Updating Approach</a>. 
+                                            <span style='font-style:italic'>IEEE Transactions on Learning Technologies, 14</span>(4), 474-485.
+                                            </li>
+                                            <li>
+                                            Pei, B., & Xing, W. (2021). <a href='https://journals.sagepub.com/doi/full/10.1177/07356331211038168' style='text-decoration:underline'>An Interpretable Pipeline for Identifying At-Risk Students</a>. <span style='font-style:italic'>Journal of Educational Computing Research</span>, 07356331211038168.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj10"><h5 style='text-align:center'>Online Learning Analytics</h5></a>
+                        <!--proj14 end-->
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        
+                        <!--proj15-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj15"><img src='images/portfolio/proj15.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj15" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Teaching Teamwork</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                       <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            Teaching Teamwork is a <span style='text-decoration:underline'><a href='https://www.nsf.gov/awardsearch/showAward?AWD_ID=1400545&HistoricalAwards=false'>
+                                            NSF ATE funded project</a></span> to help to teach students of electronics how to work effectively in teams. 
+                                            We monitored students’ actions as they work together, analyze the data produced, and report on the performance of each 
+                                            individual student, as well as that of the team as a whole. Analysis is informed by various learning sciences frameworks 
+                                            through data mining to describe sequential sequential interactions of the data from teams captured. The data comprise actions, 
+                                            such as the modification of a circuit, measurements made with simulated test equipment, and written or oral communications. 
+                                            Patterns of actions are found that serve as markers for effective collaboration. This project yielded information regarding 
+                                            effective methods to assess both individual and team effectiveness for students participating in online collaborative laboratories. 
+                                            The information learned can apply to the teaching and assessment of collaborative problem-solving skills generally and are not 
+                                            restricted to the field of electronics. Check out the <span><a href='https://teaching-teamwork.concord.org/breadboard/#three-resistors-level1'>Teaching Teamwork Live System</a></span>. 
+                                            <hr class ='new1'/>
+                                            <img class="img-responsive" src="images/portfolio/proj15.1.png" alt="">
+                                            <hr class ='new2'/>
+                                            <img class="img-responsive" src="images/portfolio/proj15.2.png" alt="">
+                                            <hr class ='new2'/>
+                                            <img class="img-responsive" src="images/portfolio/proj15.3.png" alt="">
+                                            <hr class ='new1'/>
+                                            <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                            <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            <ul>
+                                                <li>
+                                                Zheng, J., Xing, W., & Zhu, G. (2019). <a href='https://www.sciencedirect.com/science/article/pii/S0360131519300636' style='text-decoration:underline'>Examining sequential patterns of self-and socially shared regulation of STEM learning in a CSCL environment</a>. 
+                                                <span style='font-style:italic'>Computers & Education, 136</span>, 34-48.
+                                                </li>
+                                                <li>
+                                                Xing, W., Popov, V., Zhu, G., Horwitz, P., & McIntyre, C. (2019). <a href='https://www.sciencedirect.com/science/article/pii/S0747563219301700' style='text-decoration:underline'>The effects of transformative and non-transformative discourse on individual performance in collaborative-inquiry learning</a>. 
+                                                <span style='font-style:italic'>Computers in Human Behavior, 98</span>, 267-276.
+                                                </li>
+                                                <li>
+                                                Zhu, G., Xing, W., & Popov, V. (2019). <a href='https://www.sciencedirect.com/science/article/pii/S1096751618304512' style='text-decoration:underline'>Uncovering the sequential patterns in transformative and non-transformative discourse during collaborative inquiry learning</a>. 
+                                                <span style='font-style:italic'>The Internet and Higher Education, 41</span>, 51-61.
+                                                </li>
+                                                <li>
+                                                Tang, H., Arslan, O., Xing, W., & Kamali-Arslantas, T. (2022). <a href='https://link.springer.com/article/10.1007/s12528-022-09318-1' style='text-decoration:underline'>Exploring collaborative problem solving in virtual laboratories: a perspective of socially shared metacognition</a>.  
+                                                <span style='font-style:italic'>Journal of Computing in Higher Education</span>, 1-24.
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj15"><h5 style='text-align:center'>Teaching Teamwork</h5></a>
+                        <!--proj15 end-->
+
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail">
+
+                        <!--proj16-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj16"><img src='images/portfolio/proj16.png' style="width:100%; height:100%"/></button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj16" role="dialog">
+                            <div class="modal-dialog" style='width:1000px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Virtual Math Teams</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        Virtual Math Teams with Geogebra (VMTwG) is a <span style='text-decoration:underline'><a href='https://www.nsf.gov/awardsearch/showAward?AWD_ID=1118773&HistoricalAwards=false'>
+                                        NSF DRK-12</a></span> funded project to design, develop, and test a cutting-edge online collaborative 
+                                        learning environment where students and teachers solve mathematical problems and communicate their thinking with others. I worked as a graduate 
+                                        research assistant on this project. VMTwG system allows for small group interactions among students by breaking larger classes into small teams. 
+                                        In this, however, it becomes difficult for teachers to be able to personally guide and facilitate collaboration between students in a timely manner
+                                        when facilitation would mean observing and responding to multiple groups of students each working at the same time but in different activity spaces. 
+                                        Using only the electronic trace data (automatically logged by VMTwG), I proposed a methodology combined activity theory, group cognition, complexity 
+                                        theory with computational modeling for an automated and meaningfully grounded assessment of student and group performance, It can also predict student 
+                                        and group performance before the collaboration ends. This analytics tool enables teachers to offer timely, concrete, and personalized help to students. 
+                                        Check out <span style='text-decoration:underline'><a href='https://vmt.mathematicalthinking.org/about#:~:text=Virtual%20Math%20Teams%20(VMT)%20provides,math%20enthusiasts%20around%20the%20world.'>VMTwG Live System</a></span>.  
+                                        <hr class ='new1'/>
+                                        <img class="img-responsive" src="images/portfolio/proj16.1.png" alt="">
+                                        <hr class ='new1'/>
+                                        <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                        Check out the papers published in <span style='text-decoration:underline'><a href='https://www.sciencedirect.com/science/article/pii/S0747563218302061'>Computers in Human Behavior</a></span>, <span style='text-decoration:underline'><a href='https://www.jstor.org/stable/pdf/jeductechsoci.18.2.110.pdf'>Educational Technology & Society</a></span>,<span style='text-decoration:underline'><a href='https://www.researchgate.net/profile/Bodong-Chen/publication/279323009_Learning_Analytics_at_Small_Scale_Exploring_a_Complexity-Grounded_Model_for_Assessment_Automation/links/5672f68008aedbbb3f9f76d5/Learning-Analytics-at-Small-Scale-Exploring-a-Complexity-Grounded-Model-for-Assessment-Automation.pdf'>Journal of Universal Computer Science</a></span>, and <span style='text-decoration:underline'><a href='https://dl.acm.org/doi/abs/10.1145/2567574.2567587'>ACM Learning Analytics and Knowledge</a></span>.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj16"><h5 style='text-align:center'>Virtual Math Teams</h5></a>
+                        <!--proj16 end-->
+
+                    </div>
+                </div>
+            </div>
+            <!--row 4 end-->
+
+            <!--Fifth row-->
+             <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <!--proj13-->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#proj17">
+                            <img src='images/portfolio/proj17.png' style="width:100%"/>
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="proj17" role="dialog">
+                            <div class="modal-dialog" style='width:1000px;height:100px'>                
+                                <!-- Modal content-->
+                                <div class="modal-content" >
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Game Analytics</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            iSocial is a <span style='text-decoration:underline'><a href='https://ies.ed.gov/ncser/projects/grant.asp?ProgID=56&grantid=790'>U.S. Department of Education</a></span>
+                                            funded i3 project. It is a design-based research project to construct a 3D 
+                                            collaborative virtual learning environment (3D CVLE) for teaching social competence to youth with Autism Spectrum Disorders (ASD).
+                                            Incorporated the Social Competence Intervention based on a framework of Cognitive Behavioral Intervention: SCI-CBI, iSocial is 
+                                            to improve the social behavior of youth with autism in both virtual and natural settings. Immersive simulation such as in 3D 
+                                            virtual environments is increasingly being viewed as an enabling technology that transcends traditional educational boundaries 
+                                            and allows individuals to acquire the competencies needed for educational settings. Collaborative learning in 3D virtual world 
+                                            has shown significant growth in supporting groups of learners in the complex and highly interactive simulations. The potential 
+                                            benefits of using a 3D game-based virtual environment to teach social competence for autistic youth include engaging distant 
+                                            learners in the game-based role-playing learning activities and fostering social interactions among avatar mediated learners 
+                                            in a simulated, curriculum-enriched environment without suffering real-world consequences and in some formats without trying 
+                                            the patience of their peers or teachers. This project aims to study how 3D game-based virtual environments can be used to help 
+                                            autistic youth learn and how autistic youth learn in such an environment.   
+                                            <hr class ='new1'/>
+                                            <img class="img-responsive" src="images/portfolio/proj17.1.png" alt="">
+                                            <hr class ='new2'/>
+                                            <img class="img-responsive" src="images/portfolio/proj17.2.png" alt="">
+                                            <hr class ='new2'/>
+                                            <img class="img-responsive" src="images/portfolio/proj17.3.png" alt="">
+                                            <hr class ='new2'/>
+                                            <img class="img-responsive" src="images/portfolio/proj17.4.png" alt="">
+                                            <hr class ='new1'/>
+                                            <h4 style="font-family:Times New Roman;font-weight:bold">Relevant publications</h4>
+                                            <p style="font-family:'Times New Roman', Times, serif; font-size: 18px;">
+                                            <ul>
+                                                <li>
+                                                Wang, X., Laffey, J., Xing, W., Ma, Y., & Stichter, J. (2016). <a href='https://www.sciencedirect.com/science/article/pii/S0747563215301370' style='text-decoration:underline'>Exploring embodied social presence of youth with Autism in 3D 
+                                                collaborative virtual learning environment: A case study</a>.  
+                                                <span style='font-style:italic'>Computers in Human Behavior, 55</span>, 310-321.
+                                                </li>
+                                                <li>
+                                                Wang, X., Laffey, J., Xing, W., Galyen, K., & Stichter, J. (2017). <a href='https://link.springer.com/article/10.1007/s11423-017-9512-7' style='text-decoration:underline'>Fostering verbal and non-verbal social interactions in a 3D collaborative virtual learning environment: a case study of youth with Autism Spectrum Disorders learning social competence in iSocial</a>. 
+                                                <span style='font-style:italic'>Educational Technology Research and Development, 65</span>(4), 1015-1039.
+                                                </li>
+                                                <li>
+                                                Wang, X., & Xing, W. (2018). <a style='text-decoration:underline' href='https://www.jstor.org/stable/26273879?seq=1'>Exploring the influence of parental involvement and socioeconomic status on teen digital citizenship: A path modeling approach</a>. 
+                                                <span style='font-style:italic'>Journal of Educational Technology & Society, 21</span>(1), 186-199.
+                                                </li>
+                                                <li>
+                                                Wang, X., Xing, W., & Laffey, J. M. (2018). <a style='text-decoration:underline' href='https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.12646'>Autistic youth in 3D game‐based collaborative virtual learning: Associating avatar interaction patterns with embodied social presence</a>. 
+                                                <span style='font-style:italic'>British Journal of Educational Technology, 49</span>(4), 742-760.
+                                                </li>
+                                                <li>
+                                                Wang, X., & Xing, W. (2021). <a href='https://journals.sagepub.com/doi/10.1177/07356331211022003' style='text-decoration:underline'>Supporting youth with autism learning social competence: A comparison of game-and nongame-based activities in 3D virtual world</a>.  
+                                                <span style='font-style:italic'>Journal of educational computing research, </span>07356331211022003.
+                                                </li>
+                                            </ul>
+                                            </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>                
+                            </div>
+                        </div>
+                        <a href='#' data-toggle="modal" data-target="#proj17"><h5 style='text-align:center'>Game Analytics</h5></a>
+                        <!--proj13 end-->
+
+                    </div>
+                </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--row 5 end-->
+
+
+        </div>
+    </section>
 </body>
 </html>

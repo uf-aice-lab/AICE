@@ -953,3 +953,8 @@ p {
   display: inline-block;
   vertical-align: middle;
 }
+
+.width__80--pct {
+  max-width: 80%;
+  width: 80%;
+}

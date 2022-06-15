@@ -958,3 +958,8 @@ p {
   max-width: 80%;
   width: 80%;
 }
+
+.width__40--pct {
+  max-width: 80%;
+  width: 80%;
+}

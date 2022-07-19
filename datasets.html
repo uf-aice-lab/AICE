@@ -6,20 +6,20 @@
     <meta name="description" content="">
     <meta name="author" content="webthemez">
     <title>AICE Lab</title>
-	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet"> 
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous"> 
     <link rel="shortcut icon" href="images/ico/favicon.ico"> 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        #about {
+            min-height: calc(100vh - 101px - 81px)
+        }
+    </style>
 </head> 
 
 <body id="home">
@@ -40,8 +40,8 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <!--<li class="scroll active"><a href="#home">Home</a></li>-->
-						<li class="scroll "><a href="index.html">About</a></li>
-                        <li class="scroll"><a href="team.html">Team</a></li>
+						<li class="scroll"><a href="index.html">About</a></li>
+                        <li class="scroll"><a href="team.html">Team</a></li>  
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
                             <ul class="dropdown-menu">
@@ -58,7 +58,7 @@
                                 <li><a href="datasets.html">Public Datasets</a></li>
                             </ul>
 					    </li> 
-                        <li class="scroll active"><a href="contactUs.html">Contact Us</a></li>
+                        <li class="scroll"><a href="contactUs.html">Contact Us</a></li>
                         <!--<li class="scroll"><a href="#contact-us">Contact</a></li>-->               
                     </ul>
                 </div>
@@ -67,57 +67,33 @@
     </header><!--/header-->
 
 
-    <section id="contact-us">
+ <section id="about">
+    
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Contact Us</h2>
-                <div style="width:80%"><p class="wow fadeInDown">I would be happy to talk with you if you are interested in any of our projects and want 
-                to collaborate with us. Also, welcome to join my AICE research group. Email is the best way to get in touch with me. Please feel free to <span style='text-decoration:underline; color:#2596be'><a href="mailto:wanli.xing@coe.ufl.edu" target="_blank">contact me</a></span>!</p></div>
+                <h4 class="section-title wow fadeInDown">Released Datasets</h4>
             </div>
         </div>
-    </section><!--/#contact-us-->
-
-
-    <section id="contact">
-        
         <div class="container">
-            <div class="container contact-info">
-                <div class="row">
-				  <div class="col-sm-4 col-md-4">
-                        <div class="contact-form">
-                            <h3>Contact Info</h3>
+            <div class="row">
+                <!-- img-responsive -->
+                <div class="col-md-4 wow fadeInLeft">
+                  <h3>AlgebraNation Dataset: 12k</h3>
+                  </a>
+                </div>
 
-                            <address>
-                              <strong>AICE LAB</strong><br>
-                              0501C Norman Hall <br>
-                              Gainesville, FL 32601<br>
-                              </p>Phone: (352)273-3259</p> 
-                            </address>
-					</div></div>
-                    <div class="col-sm-8 col-md-8">
-                        <div class="contact-form">
-                       
-                            <form id="main-contact-form" name="contact-form" method="post" action="mailto:wanli.xing@coe.ufl.edu">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Name" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" placeholder="Email" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" class="form-control" rows="8" placeholder="Message" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Send Message</button>
-                            </form>
-                        </div>
-                    </div>
+                <div class="col-md-8 wow fadeInRight">
+                    <!--<h3 class="column-title">Our Company</h3>-->
+                    <p>
+                        <span style='text-decoration:underline'>
+                            <a style='color:#2596be' target="_blank">AlgebraNation Dataset: 12k</a>
+                        </span>: (Not yet available. This is in the final stage. We will update the download link once released) One of the major challenges for studies on promoting algorithmic fairness in educational machine learning can be the limited access to demographic information due to privacy and regulations. We presented a demographics-enriched dataset called AlgebraNation, with 893,190 assessment items and 20,297,075 log entries by 12,697 Algebra I learners between 2017 and 2019. We discussed the data context, collection, and attributes of AlgebraNation, providing researchers with opportunities to adopt the dataset to investigate and implement fair EML toward building trustworthy and sustainable AI in education. 
+                    </p>
                 </div>
             </div>
-        </div>   
-   </section><!--/#bottom-->
+        </div>
+    </section><!--/#about-->
+
 
     <footer id="footer">
         <div class="container">
